@@ -7,9 +7,9 @@
 
 /* Блок основы */
 #main {
-    width: 100%;
-    height: 100%;
-    background: grey;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    background: #A0A09F;
     position: relative;
 }
 
@@ -21,6 +21,7 @@
     border-bottom: 2px solid #A0A09F;
     position: sticky;
     top: 0px; left: 0px;
+    z-index: 100;
 }
 
 /* 1.1 Блоки логотипа */
@@ -110,7 +111,7 @@
     height: 70px;
     width: 200px;
     position: absolute;
-    top: 30px; right: 80px;
+    top: 15px; right: 100px;
 }
 
 #icons div {
@@ -140,35 +141,91 @@
 
 /* 2. Блок со слайдами, внутри которого будут показывать различные акции, товары и так далее */
 
-#slides {
-    min-height: 400px;
-    background: pink;
+#slider {
+    min-width: 800px;
+	padding-top: 550px;
+	position: relative;
+	margin: 0px auto;
+	border-bottom: silver solid 2px;
+	overflow: hidden;
+}
+
+#slider > img {
+	width: 100%; height: 560px;
+	position: absolute;
+	top: 0px; left: 0px;
+	opacity: 0;
+	transform: translateX(-400px);
+	transition: all 1.5s ease-in-out;
+}
+
+#slider > input {
+    display: inline-block;
+    background: #fc8;
+    transform: translateX(650px);
+}
+
+#slider > input:checked ~ img {
+	transform: translateX(600px);
+}
+
+#slider > input:checked + img {
+	opacity: 1;
+	transform: translateX(0px);
+	z-index: 10;
 }
 
 /* 3. Блок разделов по возросту */
 
 .years {
-    min-height: 400px;
+    min-height: 500px;
+    min-width: 800px;
     background: black;
+    /* position: absolute;
+    top: 600px; left: 300px; */
 }
 
 .kids {
-    height: 250px;
-    width: 250px;
-    background: red;
-    position: absolute;
-    top: 600px; left: 200px;
+    height: 350px;
+    width: 500px;
+    background: url(../img/years/IMG_8673.jpg);
+    background-size: cover;
+    float: left;
+    margin: 60px 0 50px 120px;
+    /* position: absolute;
+    top: 800px; left: 200px; */
     border: 2px solid #A0A09F;
 }
 
+.kids:after {
+    content: "Экипировка для детских команд";
+    display: block;
+    width: 400px;
+    height: 35px;
+    float: left;
+    margin: 360px 0 0 70px;
+    font-size: 80%;
+}
+
 .adults {
-    height: 250px;
-    width: 250px;
-    background: red;
+    height: 350px;
+    width: 500px;
+    background: url(../img/years/sportsbutton.jpg);
     float: right;
-    position: absolute;
-    top: 600px; right: 200px;
+    margin: 60px 120px 50px 0;
+    /* position: absolute;
+    top: 800px; right: 200px; */
     border: 2px solid #A0A09F;
+}
+
+.adults:after {
+    content: "Экипировка для взрослых команд";
+    display: block;
+    width: 400px;
+    height: 35px;
+    float: left;
+    margin: 360px 0 0 70px;
+    font-size: 80%;
 }
 
 /* 4. Блок разделов по возросту */
@@ -178,7 +235,7 @@
     background: linear-gradient(to top, #414141, #000000);
     border-top: 2px solid #A0A09F;
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 #mailing {
