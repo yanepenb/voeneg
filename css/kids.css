@@ -1,0 +1,190 @@
+#mainKids {
+    width: 100%; 
+    height: 1025px;
+    background: black;
+    position: relative;
+    clear: both;
+}
+
+#wear {
+    min-width: 1200px;
+    min-height: 525px;
+    width: 100%;
+    /* padding-top: 550px; */
+    /* float: left; */
+    position: absolute;
+    top: 100px; left: 0px;
+	/* margin: 0px auto; */
+	border-bottom: silver solid 2px;
+    overflow: hidden;
+}
+
+#wear div {
+    height: 230px;
+    width: 180px;
+    
+    /* margin: 100px 20px 100px 90px;
+    float: left; */
+}
+
+.tracksuits {
+    position: absolute;
+    top: 100px; left: 70px;
+    background: url(../img/kids/sportcost.png);
+    background-size: cover;
+}
+
+.forms {
+    position: absolute;
+    top: 100px; left: 320px;
+    background: url(../img/kids/form2.jpg);
+    background-size: cover;
+}
+
+.sneakers {
+    position: absolute;
+    top: 100px; left: 570px;
+    background: url(../img/kids/snic3.jpg);
+    background-size: cover;
+}
+
+.downjacket {
+    position: absolute;
+    top: 100px; left: 820px;
+    background: url(../img/kids/puh3.jpg);
+    background-size: cover;
+}
+
+.accessories {
+    position: absolute;
+    top: 100px; left: 1070px;
+    background: url(../img/kids/acc.jpg);
+    background-size: cover;
+}
+/* Подвал */
+#footerKids {
+    height: 400px;
+    width: 100%;
+    min-width: 1200px;
+    background: linear-gradient(to top, #414141, #000000);
+    border-top: 2px solid #A0A09F;
+    position: absolute;
+    top: 625px; left: 0px;
+}
+
+/* Рассылка, почта */
+#mailing {
+    height: 120px;
+    width: 260px;
+    background: black;
+    position: absolute;
+    top: 150px; right: 150px;
+    /* float: right;
+    margin: 150px 200px 0 400px; */
+}
+
+#mailing h3 {
+    height: 80px;
+    width: 260px;
+    display: block;
+    position: absolute;
+    font-size: 55%;
+    top: -140px; right: 0px;
+    /* background: #f44f1d; */
+}
+
+#mailing input[type="email"] {
+    text-align: center;
+    font-size: 55%;
+}
+
+#mailing form {
+    background: black;
+}
+
+#mail {
+    height: 30px;
+    width: 233px;
+    background: black;
+    position: absolute;
+    top: 30px; left: 14px;
+    font-size: 65%;
+    border-bottom: 2px gray solid;
+    border-top: 0px black solid;
+    border-left: 0px black solid;
+    border-right: 0px black solid;
+    color: gray;
+    /* padding: 5px 65px 5px 65px; */
+}
+
+#submit {
+    background: #f44f1d;
+    position: absolute;
+    bottom: 10px; left: 13px;
+    font-size: 55%;
+    padding: 5px 65px 5px 65px;
+    border: 0px #f44f1d solid;
+}
+
+
+/* Подпишись */
+
+#follow {
+    /* background: #f44f1d; */
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 100px; left: 475px;
+}
+
+#follow h3 {
+    height: 80px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    font-size: 55%;
+    top: -90px; right: 0px;
+    /* background: #f44f1d; */
+}
+
+#follow ul li {
+    list-style-type: none;
+    /* background: #f44f1d; */
+}
+
+#follow a {
+    text-decoration: none;
+    font-size: 50%;
+    /* background: #f44f1d; */
+}
+
+/* Главная в подвале */
+
+#list {
+    /* background: #f44f1d; */
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 100px; left: 150px;
+}
+
+#list h3 {
+    height: 80px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    font-size: 75%;
+    top: -90px; right: 0px;
+    /* background: #f44f1d; */
+}
+
+#list ul li {
+    list-style-type: none;
+    /* background: #f44f1d; */
+}
+
+#list a {
+    text-decoration: none;
+    font-size: 50%;
+    /* background: #f44f1d; */
+}
