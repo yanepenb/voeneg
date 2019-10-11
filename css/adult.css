@@ -30,7 +30,7 @@
 .tracksuits {
     position: absolute;
     top: 100px; left: 70px;
-    background: url(../img/kids/sportcost.png);
+    background: url(../img/adult/sportcost.png);
     background-size: cover;
 }
 
@@ -46,7 +46,7 @@
 .forms {
     position: absolute;
     top: 100px; left: 320px;
-    background: url(../img/kids/form2.jpg);
+    background: url(../img/adult/form2.jpg);
     background-size: cover;
 }
 
@@ -62,7 +62,7 @@
 .sneakers {
     position: absolute;
     top: 100px; left: 570px;
-    background: url(../img/kids/snic3.jpg);
+    background: url(../img/adult/snic3.jpg);
     background-size: cover;
 }
 
@@ -78,7 +78,7 @@
 .downjacket {
     position: absolute;
     top: 100px; left: 820px;
-    background: url(../img/kids/puh3.jpg);
+    background: url(../img/adult/puh3.jpg);
     background-size: cover;
 }
 
@@ -94,7 +94,7 @@
 .accessories {
     position: absolute;
     top: 100px; left: 1070px;
-    background: url(../img/kids/acc.jpg);
+    background: url(../img/adult/acc.jpg);
     background-size: cover;
 }
 
