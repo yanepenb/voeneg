@@ -34,7 +34,7 @@
     background-size: cover;
 }
 
-.tracksuits:after {
+.tracksuits::after {
     content: "Спортивные костюмы";
     display: block;
     position: absolute;
@@ -50,7 +50,7 @@
     background-size: cover;
 }
 
-.forms:after {
+.forms::after {
     content: "Формы";
     display: block;
     position: absolute;
@@ -66,7 +66,7 @@
     background-size: cover;
 }
 
-.sneakers:after {
+.sneakers::after {
     content: "Кроссовки";
     display: block;
     position: absolute;
@@ -82,7 +82,7 @@
     background-size: cover;
 }
 
-.downjacket:after {
+.downjacket::after {
     content: "Пуховики";
     display: block;
     position: absolute;
@@ -98,7 +98,7 @@
     background-size: cover;
 }
 
-.accessories:after {
+.accessories::after {
     content: "Акссесуары";
     display: block;
     position: absolute;
